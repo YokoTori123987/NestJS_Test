@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
+import React from "react";
+// import Link from "next/link";
+import Link from "next/link";
 
-export class index extends Component {
-  render() {
-    return (
-      <div>index
-        <h1></h1>
-      </div>
-    )
-  }
+export default function index() {
+  return (
+    <div>
+      <h1>Hi</h1>
+      <img src="/next.svg" alt="" height={100} />
+    </div>
+  );
 }
-
-export default index
